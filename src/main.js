@@ -8,8 +8,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 // 导入index.css
 import './assets/css/index.css';
 
+import router from './routes/router.js';
 
 new Vue({
   el: '#app',
+  router,
   render: h => h(App)
 })
